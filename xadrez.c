@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    
+  
     int i = 0;
 
     
-    while (i < 5) {
+    do {
         
-        printf("torre direita %d\n", i);
+        printf("bispo cima direita %d\n", i);
         i++;
-    }
+    } while (i < 5);
 
     return 0;
 }

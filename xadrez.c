@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main() {
-  
-    int i = 0;
+    int i = 5;
 
-    
-    do {
+    for (int i = 0; i < 5; i++) {
         
-        printf("bispo cima direita %d\n", i);
-        i++;
-    } while (i < 5);
+        printf("rainha a esquerda\n", i);
+    }
 
     return 0;
 }
+
